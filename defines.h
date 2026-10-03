@@ -44,10 +44,10 @@
 //   - Pico/Pico2 default:      D+=16, D-=17, 5V=18, LED=25, NeoPixel=21
 
 #ifndef PIN_USB_HOST_DP
-#define PIN_USB_HOST_DP         (16u)   // PIO USB Host D+ pin (default)
+#define PIN_USB_HOST_DP         (34u)   // PIO USB Host D+ pin (default)
 #endif
 #ifndef PIN_USB_HOST_DM
-#define PIN_USB_HOST_DM         (17u)   // PIO USB Host D- pin (default, must be D+ + 1)
+#define PIN_USB_HOST_DM         (35u)   // PIO USB Host D- pin (default, must be D+ + 1)
 #endif
 #ifndef PIN_USB_5V
 #define PIN_USB_5V              (18u)   // Power pin for USB host
